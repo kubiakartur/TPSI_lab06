@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: wizut.tpsi.springlab1.SpringLab1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.837 s - in wizut.tpsi.springlab1.SpringLab1ApplicationTests

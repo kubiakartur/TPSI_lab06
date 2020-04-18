@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Pierwszy projekt springowy</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>Przedstaw się ładnie:</h1>
+        <form action="/hello" method="post">
+            Imię: <input type="text" name="imie" />
+            Wiek: <input type="number" name="wiek" />
+            <input type="submit" value="Wyślij" />
+        </form>
+        
+        <h1>Zadanie 1:</h1>
+        <form action="/zad1" method="post">
+            X: <input type="number" name="x" />
+            Y: <input type="number" name="y" />
+            <input type="submit" value="Dodaj" />
+        </form>
+        
+        <h1>Zadanie 2:</h1>
+        <form action="/zad2" method="post">
+            X: <input type="number" name="x" />
+            Y: <input type="number" name="y" />
+            <select id="z" name="z">
+                <option value="dodawanie">dodawanie</option>
+                <option value="odejmowanie">odejmowanie</option>
+                <option value="mnozenie">mnozenie</option>
+            </select>
+            <input type="submit" value="Dodaj" />
+        </form>
+        
+        <h1>Zadanie 3:</h1>
+        <form action="/zad3" method="post">
+            X: <input type="number" name="x" />
+            Y: <input type="number" name="y" />
+            <select id="z" name="z">
+                <option value="dodawanie">dodawanie</option>
+                <option value="odejmowanie">odejmowanie</option>
+                <option value="mnozenie">mnozenie</option>
+            </select>
+            <input type="submit" value="Dodaj" />
+        </form>
+        
+    </body>
+</html>
